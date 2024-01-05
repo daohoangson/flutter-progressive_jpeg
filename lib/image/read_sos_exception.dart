@@ -1,0 +1,1 @@
+class ReadSosException extends Error {}
