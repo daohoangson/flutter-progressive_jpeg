@@ -1,16 +1,8 @@
 # progressive_jpeg
 
-A new Flutter project.
+This is a PoC to show how to download and display a progressive JPEG image in Flutter.
 
-## Getting Started
+The idea is to download the image in chunks and display it as soon as possible.
+The HTTP connection should be aborted at that point to save resources (cpu, memory, network). For real application, the chunks should be saved somewhere so the download can resume and display the full image.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+This got started from https://twitter.com/mrpaint/status/1742790251612156211.
